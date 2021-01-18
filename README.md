@@ -27,6 +27,7 @@ Libraries:
 
 To use it first place the hidden text messsage as secret_file_in.txt and run:
 (Image Example)
+
     - py encode.py ImageFile.jpg
     
 This hides the secret message in a new file ImageFile-2.png
