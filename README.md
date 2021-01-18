@@ -15,9 +15,26 @@ Secret or encrypted message may be a text file, a cipher text, audio or images [
 tamper Proofing, revision tracking, enhance robustness of image search engines and smart Ids or identity cards where individual's details are embedded in their photographs. "
 
 
+Libraries:
+    You need to have python 3 and 
+        ❖ PIL (Python Imaging Library)
+        ❖ Wave
+        ❖ IO
+        ❖ CV2
 
 
 
+
+To use it first place the hidden text messsage as secret_file_in.txt and run:
+(Image Example)
+    - py encode.py ImageFile.jpg
+    
+This hides the secret message in a new file ImageFile-2.png
+In order to decode the hidden message:
+
+    - py decode.py Image_File-2.png
+    
+ This will decode the hidden message into secret_file_out.txt
 
 
 
